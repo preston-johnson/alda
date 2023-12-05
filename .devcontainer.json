@@ -12,13 +12,13 @@
         "installGradle": "false"
       },
       "ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
-    }
+    },
   
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
   
     // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": "java -version",
+    "postCreateCommand": "chmod +x install-alda.sh && ./install-alda.sh",
   
     // Configure tool-specific properties.
     // "customizations": {},
