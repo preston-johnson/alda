@@ -18,7 +18,7 @@
     // "forwardPorts": [],
   
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "chmod +x install-alda.sh && ./install-alda.sh",
+    "postCreateCommand": "chmod +x /workspaces/alda/install-alda.sh && ./workspaces/alda/install-alda.sh",
   
     // Configure tool-specific properties.
     // "customizations": {},
